@@ -1,8 +1,7 @@
-# TECHSTAR-PROJECT (project HAZE)
+# TECHSTAR-PROJECT (project HAZE),CANDIDATE LOGIN
+-------------------------------------------------
 
-CANDIDATE LOGIN
----------------
- SIGN IN.html 
+SIGN IN.html 
  ------------
  <!DOCTYPE html>
 <html lang="en">
@@ -15,12 +14,9 @@ CANDIDATE LOGIN
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,200;1,600&display=swap" rel="stylesheet">
     <title>SignIn form</title>
     <link rel="stylesheet" href="signIn.css">
-
-
 </head>
 <body>
-
-    <div class="sign-up-form">
+   <div class="sign-up-form">
         <img src="images/TECHSTAR-GROUP.jpg" alt="Logo">
         <h1>LOG IN</h1>
         <form>
@@ -28,20 +24,15 @@ CANDIDATE LOGIN
             <input type="password" class="input-box" placeholder="Enter your password">
             <p><span><input type="checkbox"></span> I agree to the terms and condition</p>
             <button type="button" class="sign-btn" value="submit">SignIn</button>
-    
            <button type="button" class="sign-in-button" value="Register"> <a href="signup.html" >Sign up</a></button> 
             <hr>
         </form>
-    </div>
-    
+    </div>    
 </body>
 </html>
 
-
 Sign-in.css
 -------------
-
-
 body
 {
     margin: 0;
@@ -144,7 +135,6 @@ sign-up.html
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,200;1,600&display=swap" rel="stylesheet">
     <title>sign-up-form</title>
     <link rel="stylesheet" href="signupcss.css">
-
 </head>
 <body>
     <div class="form-body">
@@ -158,20 +148,13 @@ sign-up.html
         <label for="password">Enter the password</label> <br>
         <input type="password" class="input-box" name="password"> <br>
         <label for="password">Enter the password again</label> <br>
-        <input type="password" class="input-box" name="re-password"> <br>
-    
+        <input type="password" class="input-box" name="re-password"> <br>    
         <label for="file">Upload your Resume</label> <br><br>
-
         <input type="file" name="file" > <br>
-    
-
         <button type="button" class="sign-in-button" value="Register" >SignUp</button> 
-
         <hr>
         <p class="or">OR</p>
-        
         <p>Do you have an account?  <a href="signIn.html">Sign In</a></p>
-
     </form>
 </div>
 </body>
@@ -180,8 +163,7 @@ sign-up.html
 
 Sign-up.css
 -----------
-body{
-    
+body{   
     margin: 0;
     padding: 0;
     font-family: sans-serif;
@@ -202,9 +184,6 @@ body{
     color: #1c8adb;
     margin-bottom: 30px;
 }
-
-
-
 button{
     color: #fff;
     width: 100%;
@@ -216,13 +195,9 @@ button{
     outline: none;
     cursor: pointer;
 }
-
-
 .sign-in-button{
     background-color: #1c8adb;
 }
-
-
 .twitter-btn{
     background-color: #21afde;
 }
